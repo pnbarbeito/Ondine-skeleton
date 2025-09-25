@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73da6efb56d025aaa47d224395210b08",
+    "content-hash": "f08a9a8f75fad5672a96d621ddf01cd3",
     "packages": [
         {
             "name": "pnbarbeito/ondine",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnbarbeito/Ondine.git",
-                "reference": "84278d7a29d98c941d26b04a8509e3e7edc8e9e0"
+                "reference": "34aa271636c0f58c7dc39c49c10afe8524d1ec95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnbarbeito/Ondine/zipball/84278d7a29d98c941d26b04a8509e3e7edc8e9e0",
-                "reference": "84278d7a29d98c941d26b04a8509e3e7edc8e9e0",
+                "url": "https://api.github.com/repos/pnbarbeito/Ondine/zipball/34aa271636c0f58c7dc39c49c10afe8524d1ec95",
+                "reference": "34aa271636c0f58c7dc39c49c10afe8524d1ec95",
                 "shasum": ""
             },
             "require": {
@@ -28,7 +28,6 @@
                 "phpunit/phpunit": "^9.0",
                 "squizlabs/php_codesniffer": "^3.7"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -62,7 +61,7 @@
                 "issues": "https://github.com/pnbarbeito/ondine/issues",
                 "source": "https://github.com/pnbarbeito/ondine"
             },
-            "time": "2025-09-25T01:48:09+00:00"
+            "time": "2025-09-25T17:10:57+00:00"
         }
     ],
     "packages-dev": [
@@ -2334,9 +2333,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "pnbarbeito/ondine": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {},
