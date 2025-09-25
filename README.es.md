@@ -19,8 +19,14 @@ Un esqueleto de aplicación minimalista para iniciar rápidamente nuevos proyect
 ### Via Composer Create-Project
 
 ```bash
+# Recomendado: Instalar versión estable (cuando esté disponible)
 composer create-project pnbarbeito/ondine-skeleton my-app
-cd my-app
+
+# Alternativa: Instalar versión de desarrollo
+composer create-project pnbarbeito/ondine-skeleton my-app dev-main
+
+# O con estabilidad dev
+composer create-project pnbarbeito/ondine-skeleton my-app --stability dev
 ```
 
 ## 🚀 Inicio Rápido

@@ -19,8 +19,14 @@ A minimal application skeleton for quickly bootstrapping new projects with the O
 ### Via Composer Create-Project
 
 ```bash
+# Recommended: Install stable version (when available)
 composer create-project pnbarbeito/ondine-skeleton my-app
-cd my-app
+
+# Alternative: Install development version
+composer create-project pnbarbeito/ondine-skeleton my-app dev-main
+
+# Or with dev stability
+composer create-project pnbarbeito/ondine-skeleton my-app --stability dev
 ```
 
 ## 🚀 Quick Start
