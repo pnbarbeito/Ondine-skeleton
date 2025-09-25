@@ -179,9 +179,17 @@ MYSQL_PASSWORD=your_password
 ### Running Tests
 
 ```bash
+composer install --dev  # Install development dependencies
 composer test
 # or
 ./vendor/bin/phpunit --colors=always
+```
+
+### Test Coverage
+
+```bash
+composer test-coverage
+# View coverage report in coverage/index.html
 ```
 
 ### Migrations
